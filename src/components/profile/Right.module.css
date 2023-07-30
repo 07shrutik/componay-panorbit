@@ -1,0 +1,142 @@
+
+.rightContainer{
+    /* display: flex; */
+    /* border:1px solid red; */
+    height: 100%;
+    width: 70%;
+    padding: 20px;
+}
+.rightContainer > p{
+    font-size: 18px;
+margin: 20px;
+  color: grey;
+  
+}
+.rightBox{
+    
+    width: 40%;
+}
+.mapImage{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%
+}
+.mapImage img{
+    width: 68%;
+    border-radius: 20px;
+}
+.geo{
+    display: flex;
+    justify-content: end;
+    /* margin-top: 300px; */
+    margin-right: 55px;
+}
+.geo p{
+    padding: 10px;
+
+}
+.leftBox{
+    border:1px solid blue;
+    height: 100%;
+    width: 30%;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userInfo img{
+    
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.userInfo h2{
+    display: flex;
+    text-align: center;
+}
+.userInfo span{
+    display: flex;
+}
+/* Profile.module.css */
+.userInfo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.userData {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoRow {
+    margin: 0;
+    padding: 0;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  color: grey;
+  width: 100px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .profilePicture img {
+   height: 200px;
+   width: 200px;
+    border-radius: 50%;
+  }
+  
+  .userData {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+    
+  
+  
+.userInfoRow {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 18px;
+}
+.userInfoRow p{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 18px;
+    color: rgb(40, 35, 35,0.9);
+    font-weight: bold;
+    }
+  .label {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+  }
+  
+  .userData > p{
+      /* display: block; */
+    /* margin: auto; */
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+  .value {
+    width: 60%;
+    
+  }
+  
+  

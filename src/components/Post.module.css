@@ -1,0 +1,26 @@
+
+.mainContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 20px;
+}
+.mainContentContainer{
+   
+    width:75%;
+    height: 100vh;
+    margin-left: 25px;
+}
+.post{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+.post h1{
+    font-size: 4.5rem;
+    color: lightgray;
+    font-weight: bolder;
+}

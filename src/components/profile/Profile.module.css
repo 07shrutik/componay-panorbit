@@ -1,0 +1,19 @@
+.profileContainer{
+    margin-top: 25px;
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.mainContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 20px;
+}
+.mainContentContainer{
+   
+    width:75%;
+    height: 100vh;
+    margin-left: 25px;
+}
